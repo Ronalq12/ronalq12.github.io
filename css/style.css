@@ -1,3 +1,5 @@
 body {
-    color: aqua
+    font-family: 'Lora', serif;
+    background: #D7DADB/*Cambia el tipo de letra a toda la pagina- ---- "Palatino", sans-serif;  'Raleway', sans-serif;
+												  cambia el color a toda la pagina:  CEEBF2@ - E6E6E6 - D7DADB*/
 }
