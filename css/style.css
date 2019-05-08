@@ -6,19 +6,26 @@ body {
 
 h4 {
     font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
     font-weight: 900;
+    /*grosor de la letra*/
     color: #21A68D;
+    margin-top: 12px;
     margin-bottom: 1px;
-    /*Cambia margenes,  Colores letras :  #FF7888 - #FC4349 - 6DBCDB - 2C3E50 - D7DADB - FFFFFF - 169185 - 21A68D*/
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: rgb(163, 19, 38);
+    margin-bottom: 1px;
     margin-top: 0;
 }
 
-.colorrojo {
-    color: red;
+.color1 {
+    color: rgba(1, 7, 17, 0.534);
 }
 
-.colorazul {
+.color2 {
     color: blue;
 }
 
@@ -43,4 +50,16 @@ a:visited {
 a:hover {
     background-color: rgb(0, 174, 255);
     color: crimson
+}
+
+p {
+    /*Cambia a todo la forma del texto ya sea oblicuo o normal(obliquo-italic-normal)*/
+    font-size: 18px;
+    font-style: arial;
+    color: #403E3C;
+    /* Colores letras :  #FFFFFF  - #818181 - A3A3A3 - 8D8D8D - 7F7B76 - 403E3C*/
+}
+
+section {
+    text-align: center;
 }
