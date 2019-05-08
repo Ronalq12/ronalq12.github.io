@@ -3,3 +3,13 @@ body {
     background: #D7DADB/*Cambia el tipo de letra a toda la pagina- ---- "Palatino", sans-serif;  'Raleway', sans-serif;
 												  cambia el color a toda la pagina:  CEEBF2@ - E6E6E6 - D7DADB*/
 }
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #21A68D;
+    margin-bottom: 1px;
+    /*Cambia margenes,  Colores letras :  #FF7888 - #FC4349 - 6DBCDB - 2C3E50 - D7DADB - FFFFFF - 169185 - 21A68D*/
+    margin-top: 0;
+}
