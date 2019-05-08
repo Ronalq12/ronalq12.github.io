@@ -15,5 +15,32 @@ h4 {
 }
 
 .colorrojo {
-    color: #fff;
+    color: red;
+}
+
+.colorazul {
+    color: blue;
+}
+
+#idcolor1 {
+    color: rgb(4, 105, 9);
+}
+
+#idcolor2 {
+    color: rgb(48, 4, 105);
+}
+
+a:link {
+    background-color: rgb(187, 255, 0);
+    color: crimson
+}
+
+a:visited {
+    background-color: rgb(157, 255, 0);
+    color: crimson
+}
+
+a:hover {
+    background-color: rgb(0, 174, 255);
+    color: crimson
 }
