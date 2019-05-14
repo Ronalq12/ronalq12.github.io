@@ -4,6 +4,67 @@ body {
 												  cambia el color a toda la pagina:  CEEBF2@ - E6E6E6 - D7DADB*/
 }
 
+
+/*-------------------------- nav -------------------------------------*/
+
+nav {
+    padding-right: 30px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*a {
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a:link {
+    background-color: rgb(187, 255, 0);
+    color: crimson
+}
+
+a:visited {
+    background-color: rgb(157, 255, 0);
+    color: crimson
+}
+
+a:hover {
+    background-color: rgb(0, 174, 255);
+    color: crimson
+}*/
+
+a:link {
+    background-color: #0f8b8b;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*quitar la linea*/
+}
+
+a:visited {
+    background-color: #8b890f;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*quitar la linea*/
+}
+
+a:hover,
+a:active {
+    background-color: red;
+}
+
+
+/*-------------------------- nav -------------------------------------*/
+
 h4 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -62,21 +123,6 @@ h2 {
     color: rgb(48, 4, 105);
 }
 
-a:link {
-    background-color: rgb(187, 255, 0);
-    color: crimson
-}
-
-a:visited {
-    background-color: rgb(157, 255, 0);
-    color: crimson
-}
-
-a:hover {
-    background-color: rgb(0, 174, 255);
-    color: crimson
-}
-
 p {
     /*Cambia a todo la forma del texto ya sea oblicuo o normal(obliquo-italic-normal)*/
     font-size: 18px;
@@ -92,6 +138,12 @@ section {
 
 /* --------------------------------- LUGARES TURISTICOS ----------------------------------------------*/
 
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
 .lugarturistico {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -99,3 +151,13 @@ section {
     margin-bottom: 1px;
     margin-top: 0;
 }
+
+
+/*-------------------------- FOOTER -------------------------------------*/
+
+footer {
+    background: #1b1d1d
+}
+
+
+/*-------------------------- FOOTER -------------------------------------*/
