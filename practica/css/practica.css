@@ -1,0 +1,103 @@
+    body {
+        background-color: rgba(254, 247, 218);
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    p {
+        text-align: justify;
+    }
+    /* -------------------- Header -------------------------------------------------*/
+    
+    header {
+        background-color: rgb(63, 52, 9);
+        /* padding-bottom: 220px;*/
+    }
+    
+    header p {
+        font-size: 40px;
+    }
+    
+    #menu {}
+    
+    #menu li {
+        padding-bottom: 20px;
+        float: right;
+        margin-right: 2%;
+        display: inline-block;
+    }
+    /* -------------------- Header -------------------------------------------------*/
+    /* -------------------- secccion 1 -------------------------------------------------*/
+    
+    #sanfrancisco {
+        background: url(../images/sanfrancisco.jpg);
+        height: 219px;
+        width: 950px;
+        clear: both;
+        border-radius: 10px;
+    }
+    
+    #sanfrancisco p {
+        padding-top: 20%;
+        color: aliceblue;
+    }
+    /* -------------------- secccion 1 -------------------------------------------------*/
+    /* -------------------- secccion 2 -------------------------------------------------*/
+    
+    #contenido {
+        background-color: rgba(254, 247, 218);
+        float: left;
+        width: 68%;
+    }
+    /* -------------------- secccion 2 -------------------------------------------------*/
+    /* -------------------- aside -------------------------------------------------*/
+    
+    aside {
+        background-color: rgb(89, 90, 87);
+        float: right;
+        width: 30%;
+        text-align: center;
+        margin-top: 2%;
+        padding-bottom: 3%;
+        border-radius: 15px;
+    }
+    
+    #color p {
+        color: aliceblue;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    #color h3 {
+        color: aliceblue;
+    }
+    /* -------------------- aside-------------------------------------------------*/
+    /* -------------------- footer -------------------------------------------------*/
+    
+    footer {
+        clear: both;
+        /* background: url(../images/separateur.png) repeat right;
+    height: 3px;
+    width: 107px; */
+        margin-top: 43%;
+        margin-bottom: 25%;
+    }
+    
+    #listafooter {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    #listafooter li {
+        background-color: rgba(254, 247, 218);
+        float: left;
+        width: 33.3%;
+    }
+    
+    #listaamigos li {
+        background-color: rgba(254, 247, 218);
+        float: left;
+        width: 50%;
+        color: brown;
+    }
+    /* -------------------- footer -------------------------------------------------*/
