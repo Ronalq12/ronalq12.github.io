@@ -10,7 +10,7 @@
     /* -------------------- Header -------------------------------------------------*/
     
     header {
-        background-color: rgb(63, 52, 9);
+        background-color: rgba(254, 247, 218);
         /* padding-bottom: 220px;*/
     }
     
@@ -38,7 +38,7 @@
     }
     
     #sanfrancisco p {
-        padding-top: 20%;
+        padding-top: 18%;
         color: aliceblue;
     }
     /* -------------------- secccion 1 -------------------------------------------------*/
