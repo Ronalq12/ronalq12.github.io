@@ -1,0 +1,91 @@
+body {
+    /* background-color: rgba(254, 247, 218); */
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1,
+p {
+    text-align: justify;
+    color: rgb(67, 67, 167);
+}
+
+header {
+    background-color: rgb(242, 248, 245);
+    /* padding-bottom: 220px;*/
+}
+
+header p {
+    font-size: 40px;
+}
+
+
+/*-------------- menu -------------------------------------*/
+
+#menu {
+    margin-top: 4%;
+    background-color: rgb(189, 189, 192);
+    float: left;
+    width: 30%;
+    padding-bottom: 28%
+}
+
+a:link {
+    background-color: rgb(189, 192, 189);
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*quitar la linea*/
+}
+
+a:visited {
+    /* background-color: #2258bb; */
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*quitar la linea*/
+}
+
+a:hover,
+a:active {
+    background-color: rgb(36, 49, 146);
+}
+
+section {
+    margin-top: 4%;
+    /* background-color: #f2f8f5; */
+    float: right;
+    width: 70%;
+}
+
+#contenido {
+    background-color: rgb(49, 134, 75);
+    float: right;
+    width: 80%;
+}
+
+#lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista li {
+    /* background-color: rgb(233, 234, 240); */
+    float: left;
+    width: 47%;
+    /* padding-left: 3%; */
+}
+
+#l1 {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#lista li img {
+    width: 300px;
+    height: 200px;
+}
