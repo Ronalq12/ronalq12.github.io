@@ -1,0 +1,28 @@
+body {
+    font-family: 'Gudea', sans-serif;
+    background: rgb(222, 228, 220)/*Cambia el tipo de letra a toda la pagina- ---- "Palatino", sans-serif;  'Raleway', sans-serif;
+												  cambia el color a toda la pagina:  CEEBF2@ - E6E6E6 - D7DADB*/
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #21A68D;
+    margin-bottom: 1px;
+    /*Cambia margenes,  Colores letras :  #FF7888 - #FC4349 - 6DBCDB - 2C3E50 - D7DADB - FFFFFF - 169185 - 21A68D*/
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+p {
+    color: rgb(4, 39, 59);
+    letter-spacing: 2px;
+    height: 10vh;
+    /* text-shadow: 1px 1px 1px rgb(220, 223, 15); */
+}
+
+
+/* footer {
+    background: rgb(52, 85, 124);
+} */
