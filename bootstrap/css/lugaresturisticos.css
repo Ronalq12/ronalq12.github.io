@@ -1,3 +1,18 @@
+body {
+    /* background: rgb(161, 148, 182); */
+    background: url(../images/fondo1.png) center no-repeat;
+}
+
+.conteiner {
+    margin-bottom: 50px;
+}
+
+#myCarousel {
+    margin-bottom: 50px;
+    /* para moverlo hacia la izquierda */
+    margin-left: 250px;
+}
+
 .carousel-control.left {
     background: none;
 }
@@ -8,10 +23,10 @@
 
 .carousel-control {
     position: absolute;
-    top: 45%;
-    bottom: 0;
-    left: 0;
-    width: 15%;
+    top: 4%;
+    bottom: 50px;
+    left: 1%;
+    width: 20%;
     font-size: auto;
     color: #fff;
     text-align: center;
@@ -32,7 +47,7 @@
     width: 10px;
     height: 10px;
     margin: 1px;
-    text-indent: -999px;
+    text-indent: -990px;
     cursor: pointer;
     background-color: #000;
     background-color: rgba(0, 0, 0, 0);
@@ -58,4 +73,14 @@
     color: #fff;
     text-align: center;
     background: rgba(0, 0, 0, 0.4);
+}
+
+.left {
+    margin-right: 40px;
+}
+
+footer {
+    background-color: rgb(72, 94, 134);
+    color: #ddd;
+    padding-top: 12PX;
 }

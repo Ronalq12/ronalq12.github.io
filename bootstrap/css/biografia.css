@@ -36,6 +36,7 @@
 /* Add a color background color and some padding to the footer */
 
 footer {
-    background-color: #488cac;
-    padding: 25px;
+    background-color: rgb(72, 94, 134);
+    color: #ddd;
+    padding-top: 12PX;
 }
