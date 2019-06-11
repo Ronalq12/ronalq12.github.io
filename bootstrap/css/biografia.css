@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(140, 146, 146);
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -30,6 +34,10 @@
 .carousel-caption img {
     height: 170px;
     width: 170px;
+}
+
+.container {
+    background-color: rgb(159, 170, 170);
 }
 
 
